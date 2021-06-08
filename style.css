@@ -1,0 +1,86 @@
+ @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap');
+
+
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+
+ .gradient{
+    font-family: 'jost';
+    background: linear-gradient(45deg, #6FC3F7, #C2FDFF);
+   /* background: linear-gradient(45deg, #EDD5E6, #CDE4E9, #CFE3EB );   */
+}
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: 40px auto; 
+}
+
+
+.miqueias_img{
+    width: 120px;
+    border-radius: 50%;
+    border: solid 1px #FFF;
+}
+
+
+#container p{
+   /* color: #1C1F26;*/
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 10px;
+    color: #193441;
+}
+
+
+.miniatura{
+    width: 30px;
+    padding: 1.0px;
+    margin-bottom: 35px;
+}
+
+
+.redes{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 18px;
+    border-radius: 50px;
+    font-size: 18px;
+    border: solid 2px white;
+    background-color: #31373E;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.redes:hover{ 
+    background-color: #C2FDFF; 
+    transition-timing-function: linear;
+    transition-duration: 0.2s;
+    color: black;
+    cursor: pointer;    
+}
+
+
+.miniatura:hover{
+    width: 33px;
+    transition-timing-function: linear;
+    transition-duration: 0.1s;
+}
+
+
+
+@media (min-width: 1024px) {
+    #container{
+        width: 50vw;
+    }
+}
+
