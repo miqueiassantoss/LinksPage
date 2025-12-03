@@ -8,10 +8,11 @@
  }
 
 
- .gradient{
+.gradient {
     font-family: 'jost';
     background: linear-gradient(45deg, #6FC3F7, #C2FDFF);
-   /* background: linear-gradient(45deg, #EDD5E6, #CDE4E9, #CFE3EB );   */
+    min-height: 100vh;
+    background-repeat: no-repeat; 
 }
 
 
