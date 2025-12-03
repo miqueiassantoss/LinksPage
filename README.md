@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O **Links Page** atua como um cartão de visitas digital. Ele resolve o problema da bio do Instagram (que só aceita um link), permitindo que você agrupe suas redes sociais (LinkedIn, Facebook, Instagram) e contato por e-mail em uma única landing page responsiva e agradável.
 
-- [Acesse o projeto online][https://miqueiassantoss.github.io/LinksPage/]
+- [Acesse o projeto online](https://miqueiassantoss.github.io/LinksPage/)
 
 ## 🔖 Layout
 
